@@ -9,17 +9,17 @@ function holaMundo() {
     return "¡Hola!";
 }
   
-module.exports = holaMundo;
+module.exports.holaMundo = holaMundo;
 
 /**
- * Devuelve la cadena "¡Hola Mundo!" y la escribe por consola
+ * Devuelve la cadena "¡Hasta Luego!" y la escribe por consola
  * @return {String}
  */
 
  function hastaLuego() {
     console.log("¡Hasta Luego!");
-    return "¡Hasta Luego!";
+    return "¡Adiós!";
 }
   
-module.exports = hastaLuego;
+module.exports.hastaLuego = hastaLuego;
 
