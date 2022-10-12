@@ -2,6 +2,8 @@
 
 Este proyecto de ejemplo está escrito en Node y testeado en Jest.
 
+[![Node.js CI](https://github.com/antonio-gabriel-gonzalez-casado/DWEC-Estructura-Basica-Aplicacion-Web/actions/workflows/node.js.yml/badge.svg)](https://github.com/antonio-gabriel-gonzalez-casado/DWEC-Estructura-Basica-Aplicacion-Web/actions/workflows/node.js.yml)
+
 ## Ejercicio
 
 Uno de los test está fallando porque no está devolviendo la cadena correcta. Arregla la función para que devuelva la cadena necesaria para poder pasar el test.
