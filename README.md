@@ -10,7 +10,7 @@ Uno de los test está fallando porque no está devolviendo la cadena correcta. A
 
 ### Comando de instalación
 
-`npm install`
+`npm install` 
 
 ### Comando de ejecución de test
 
