@@ -1,7 +1,7 @@
 {
   "private": true,
   "version": "0.0.0",
-  "name": "Basic Example",
+  "name": "daw2-dwec-basic-example",
   "engines": {
     "node": ">=4"
   },
