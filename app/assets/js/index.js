@@ -1,5 +1,5 @@
 /**
- * * Devuelve la cadena "¡Hola Mundo!" y la escribe por consola
+ * * Devuelve la cadena "¡Hola Mundo!"
  * @return {String}
  */
 
@@ -13,7 +13,7 @@ function holaMundo() {
 if (typeof module !== 'undefined') module.exports.holaMundo = holaMundo;
 
 /**
- * * Devuelve la cadena "¡Hasta Luego!" y la escribe por consola
+ * * Devuelve la cadena "¡Hasta Luego!"
  * @return {String}
  */
 
