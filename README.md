@@ -104,5 +104,6 @@ En el fichero .elintrc.json añadir al nodo env la siguiente configuración para
 
 ### Instalar Bootstrap
 Entrar en la web de descargas de Boostrap y descargar la última versión en la sección Compiled CSS and JS.
+Mover los directorios css y js al directorio assets/bootstrap.
 
 
