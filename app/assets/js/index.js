@@ -4,8 +4,10 @@
  */
 
 function holaMundo() {
-  console.info("¡Hola Mundo!");
-  return "¡Hola Mundo!";
+  console.info("Entrando en el método holaMundo sin parámetros");
+  let holaMundo = "¡Hola Mundo!";
+  console.info("Saliendo del método hastaLuego con el resultado %s", holaMundo);
+  return holaMundo;
 }
 
 if (typeof module !== 'undefined') module.exports.holaMundo = holaMundo;
@@ -16,8 +18,10 @@ if (typeof module !== 'undefined') module.exports.holaMundo = holaMundo;
  */
 
 function hastaLuego() {
-  console.info("¡Hasta Luego!");
-  return "¡Hasta Luego!";
+  console.info("Entrando en el método hastaLuego sin parámetros");
+  let hastaLuego = "¡Hasta Luego!";
+  console.info("Saliendo del método hastaLuego con el resultado %s", hastaLuego);
+  return hastaLuego;
 }
 
 if (typeof module !== 'undefined') module.exports.hastaLuego = hastaLuego;
