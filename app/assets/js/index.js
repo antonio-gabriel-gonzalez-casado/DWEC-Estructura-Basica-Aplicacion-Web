@@ -8,7 +8,7 @@ function holaMundo() {
   return "¡Hola Mundo!";
 }
 
-module.exports.holaMundo = holaMundo;
+if (typeof module !== 'undefined') module.exports.holaMundo = holaMundo;
 
 /**
  * * Devuelve la cadena "¡Hasta Luego!" y la escribe por consola
@@ -20,4 +20,4 @@ function hastaLuego() {
   return "¡Hasta Luego!";
 }
 
-module.exports.hastaLuego = hastaLuego;
+if (typeof module !== 'undefined') module.exports.hastaLuego = hastaLuego;

@@ -74,26 +74,6 @@ En el fichero .elintrc.json añadir al nodo env la siguiente configuración para
 `"jest": true`
 
 
-### Configurar el archivo package.json:
-
-```json
-{
-  "private": true,
-  "version": "0.0.1",
-  "name": "daw2-dwec-basic-example",
-  "engines": {
-    "node": ">=4"
-  },
-  "devDependencies": {
-    "eslint": "^8.25.0",
-    "jest": "^29.1"
-  },
-  "scripts": {
-    "test": "jest --coverage"
-  }
-}
-```
-
 ### Comando de instalación
 
 `npm install` 
@@ -102,8 +82,20 @@ En el fichero .elintrc.json añadir al nodo env la siguiente configuración para
 
 `npm test` 
 
+### Instalar JQuery
+Descarga la versión 3.2.1 slim min de JQuery en el directorio assets/js/ 
+Añadelo al final del body del index.html mediante la siguiente sentencia:
+`<script defer src="assets/js/jquery-3.2.1.slim.min.js"></script>`
+
+
 ### Instalar Bootstrap
 Entrar en la web de descargas de Boostrap y descargar la última versión en la sección Compiled CSS and JS.
 Mover los directorios css y js al directorio assets/bootstrap.
+Añadir en el head del index.html el la siguiente sentecia:
+`<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">`
+Añadir en al final del body la siguiente sentecia:
+`<script defer src="assets/bootstrap/js/bootstrap.min.js"></script>`
+
+
 
 
