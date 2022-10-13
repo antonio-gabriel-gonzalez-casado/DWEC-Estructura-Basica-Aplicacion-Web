@@ -14,7 +14,7 @@ Uno de los test está fallando porque no está devolviendo la cadena correcta. A
 
 ### Comando de ejecución de test
 
-`npm test` 
+`npm test`    
 
 ## Activar Extensiones
 
