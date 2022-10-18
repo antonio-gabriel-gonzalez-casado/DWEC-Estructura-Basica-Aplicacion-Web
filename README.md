@@ -96,6 +96,11 @@ Añadir en el head del index.html el la siguiente sentecia:
 Añadir en al final del body la siguiente sentecia:
 `<script defer src="assets/bootstrap/js/bootstrap.min.js"></script>`
 
+### Instalar el servidor ligero
+`npm install light-server`
+
+### Lanzar el servidor ligero 
+`light-server -s . -p 7000`
 
 
 
