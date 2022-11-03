@@ -4,17 +4,34 @@ Este proyecto de ejemplo está escrito en Node y testeado en Jest.
 
 [![Node.js CI](https://github.com/antonio-gabriel-gonzalez-casado/DWEC-Estructura-Basica-Aplicacion-Web/actions/workflows/node.js.yml/badge.svg)](https://github.com/antonio-gabriel-gonzalez-casado/DWEC-Estructura-Basica-Aplicacion-Web/actions/workflows/node.js.yml)
 
-## Ejercicio
 
-Uno de los test está fallando porque no está devolviendo la cadena correcta. Arregla la función para que devuelva la cadena necesaria para poder pasar el test.
 
-### Comando de instalación
+### Inicializa el proyecto node
 
-`npm install` 
+`npm init`
 
-### Comando de ejecución de test
+### Crear la siguiente estructura:
 
-`npm test`    
+├───app/
+│   ├───assets/
+│   │   ├───css/
+│   │   │   └───style.css
+│   │   ├───fonts/
+│   │   ├───icons/
+│   │   ├───images/
+│   │   │   └───logo.png
+│   │   └───js/
+│   │       └───custom.js
+│   ├───favicon.png
+│   └───index.html
+├───test/
+│   ├───spec/
+│   │   └───test.js
+│   └───index.html
+├───LICENSE
+├───README.md
+├───package-lock.json
+└───package.json
 
 ## Activar Extensiones
 
@@ -57,6 +74,34 @@ What format do you want your config file to be in?
 En el fichero .elintrc.json añadir al nodo env la siguiente configuración para quitar los errores de ESLint en los test unitarios
 `"jest": true`
 
-### Prettier
 
--
+### Comando de instalación
+
+`npm install` 
+
+### Comando de ejecución de test
+
+`npm test` 
+
+### Instalar JQuery
+Descarga la versión 3.2.1 slim min de JQuery en el directorio assets/js/ 
+Añadelo al final del body del index.html mediante la siguiente sentencia:
+`<script defer src="assets/js/jquery-3.2.1.slim.min.js"></script>`
+
+
+### Instalar Bootstrap
+Entrar en la web de descargas de Boostrap y descargar la última versión en la sección Compiled CSS and JS.
+Mover los directorios css y js al directorio assets/bootstrap.
+Añadir en el head del index.html el la siguiente sentecia:
+`<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">`
+Añadir en al final del body la siguiente sentecia:
+`<script defer src="assets/bootstrap/js/bootstrap.min.js"></script>`
+
+### Instalar el servidor ligero
+`npm install light-server`
+
+### Lanzar el servidor ligero 
+`light-server -s . -p 7000`
+
+
+

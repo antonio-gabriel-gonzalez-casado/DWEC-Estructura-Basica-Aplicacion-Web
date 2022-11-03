@@ -1,4 +1,4 @@
-const custom = require("../../app/assets/js/custom");
+const custom = require("../../app/assets/js");
 
 test("Debe devolver la cadena correcta: ¡Hola Mundo!", () => {
   expect(custom.holaMundo()).toBe("¡Hola Mundo!");

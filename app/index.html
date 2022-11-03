@@ -3,10 +3,13 @@
 
   <head>
     <meta charset="utf-8">
-    <meta name="description" content="Esqueleto Básico Aplicación Web">
+    <meta name="description" content="Ejemplo Básico Aplicación Web">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Esqueleto Básico Aplicación Web</title>
     <!-- La mayoria de los navegadores reconocen el archivo favicon.ico o favicon.png si están en la raiz del proyecto -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <!-- end Bootstrap CSS -->
     <!-- css files -->
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- end js files -->
@@ -16,7 +19,7 @@
     <!--[if IE]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    <div class="hero-unit">
+    <div class="container">
       <h1>Esqueleto Básico Aplicación Web</h1>
       <p>Bienvenido al Módulo de Desarrollo Entorno Web Cliente</p>
       <ul>
@@ -25,9 +28,13 @@
       <p>Proyecto DEMO</p>
     </div>
 
-    <!-- js files -->
-    <script src="assets/js/custom.js"></script>
-    <!-- end js files -->
+    <!-- JavaScript -->
+    <!-- Primero jQuery, después Bootstrap JS -->
+    <script defer src="assets/js/jquery-3.2.1.slim.min.js"></script>
+    <script defer src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <!-- En ultimo lugar nuestros scripts -->
+    <script defer src="assets/js/index.js"></script>
+    <!-- end JavaScript -->
 
   </body>
 </html>
